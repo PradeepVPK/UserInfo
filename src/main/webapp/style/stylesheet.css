@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.userinfo{
+	height:800px;
+
+	background-color :dodgerblue;
+	font-size : 2rem;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	
+	letter-spacing:0.1em;
+	border: 2px solid green;
+}
+table{
+	margin-left:15%;
+}
+th {
+	
+	text-align :left;
+	padding :10px;
+	white-space: nowrap;
+	font-weight: bolder;
+}
+
+td{
+	color:papayawhip;
+}
+input[type="submit"]{
+	padding:15px;
+	color:white;
+	background-color: rgba(0,215,0,0.75);
+	font-size: 1rem;
+}
+
